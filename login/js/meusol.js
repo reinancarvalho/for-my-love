@@ -203,7 +203,7 @@ function validate() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    if (username == "Rebeca" && password == "05022003") {
+    if (username == "Rebeca" && password == "05022003" || username == "rebeca" && password == "05022003") {
         window.location = "final.html";
         return false;
     }
